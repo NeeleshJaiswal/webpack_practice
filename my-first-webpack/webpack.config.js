@@ -11,7 +11,7 @@ const config = {
             // all loaders will be here
             // loaders enables you to use all kinds of file types
             {
-                test: /\.(js)$/,
+                test: /\.(js|jsx)$/,
                 exclude: /node_modules/,
                 use: 'babel-loader'
             }
